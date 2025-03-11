@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: burlywood;
+            margin: 0px;
+        }
+        main{
+            background-color: bisque;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: inset 2px 2px 14px 6px rgba(0, 0, 0, 0.185);
+        }
+        header{
+            background-color: bisque;
+            color: rgb(116, 17, 17);
+            padding-left: 10px;
+            margin: 10px;
+           
+        }
+       
+        footer{
+            background-color: beige;
+            color: rgb(151, 74, 74);
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        
+        article{
+            background-color: gainsboro;
+        }
+        article > aside{
+            background-color: rgb(177, 164, 164);
+        }
+        nav{
+           background-color: rgb(177, 164, 164);
+           padding: 2px;
+           box-shadow: 1px  1px 1px black; 
+        }
+        nav>a{
+            text-decoration: none;
+            color: blanchedalmond;
+            font-weight: bold;
+            margin-right: 25px;
+        }
+        nav> a:hover{
+            text-decoration: underline;
+        }
+        h1{
+            box-shadow: inset 2px 2px 14px 6px rgba(2, 2, 2, 0.171);
+        }
+        div#bola {
+            height: 100px;
+            width:100px;
+            background-color: rgb(255, 1, 64);
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1> Meus site</h1>
+    <nav>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esportes politicas e tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, totam nostrum. Ratione molestiae maxime quasi ipsa asperiores unde officiis odio autem voluptas quibusdam? Voluptatem debitis dolorem quae, amet error quaerat!</p>
+                <aside>
+                    <p>Artigo escrito por Pedro Henrique</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CV</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
